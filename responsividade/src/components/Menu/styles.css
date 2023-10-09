@@ -1,0 +1,71 @@
+.menu{
+    display: flex;
+    color: #fff;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: #FED530 ;
+}
+
+.iconMenu, .iconClose{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+@media(max-width: 540px){
+
+    .menu{
+        display: ;
+        color: black;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu li{
+        margin: 1.5rem 0;
+        font-size: 2.5rem;
+    }
+
+    .menu li:hover{
+        color: purple;
+    }
+
+    .iconMenu, .iconClose{
+        display: block;
+        width: 35px;
+        right: 2rem;
+    }
+    .iconMenu{
+        top: 3.5rem;
+    }
+
+    .iconClose{
+        top: 3rem;
+    }
+
+    .fullscreen-menu{
+        position: absolute;
+        background-color: #FED530;
+        height: 100vh;
+        width: 100vw;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fullscreen-menu ul{
+        display: block;
+    }
+   
+    
+}

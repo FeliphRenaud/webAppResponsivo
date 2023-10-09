@@ -1,0 +1,16 @@
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.7)100%) ;
+    min-height: 100vh;
+}
+
+.sectionMovies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 32px;
+    flex-wrap: wrap;
+}
